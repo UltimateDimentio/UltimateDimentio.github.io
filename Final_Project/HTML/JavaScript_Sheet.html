@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../CSS/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <title>JavaScript Cheat Sheet</title>
+    </head>
+
+    <body>
+        <div class="Bar" id="bar">
+            <a href="javascript:void(0);" class="icon" onclick="hamburgerMenu()">
+                <i class="fa fa-bars"></i>
+            </a>
+
+            <ul>
+                <li><a href="Index.html">Main Menu</a></li>
+                <li><a href="HTML_Sheet.html">HTML</a></li>
+                <li><a href="CSS_Sheet.html">CSS</a></li>
+                <li><a href="My_Hobbies.html">My Hobbies</a></li>
+            </ul>
+        </div>
+
+        <h2>JavaScript Cheat Sheet</h2>
+
+                <div class="Description">
+            <p>
+                JavaScript is a scripting language that is used in online browsers to modify and update both HTML and CSS elements within a website.
+            </p>
+        </div>
+
+        <div class="Table">
+            <table>
+                <caption>
+                    For more information about JavaScript, visit <a href="https://www.w3schools.com/js/default.asp">w3schools.com</a>
+                </caption>
+
+                <thead>
+                    <tr>
+                        <th>Elements</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th>document.<br>getElementById()</th>
+                        <td>The method can access to an HTML element by its id.</td>
+                    </tr>
+
+                    <tr>
+                        <th>console.log(content)</th>
+                        <td>the method prints a message to the console and it is mostly used to test functions and methods.</td>
+                    </tr>
+
+                    <tr>
+                        <th>.innerHTML</th>
+                        <td>It will rewrite into an HTML element. It does not metter if there is already text inside the element.</td>
+                    </tr>
+
+                    <tr>
+                        <th>let name, const name</th>
+                        <td>Declares a block variable, or a block const. These will only work inside their function scope and they cannot be redeclared.</td>
+                    </tr>
+
+                    <tr>
+                        <th>if (condition), else</th>
+                        <td>A condition statement with code to be executed if the condition is true.</td>
+                    </tr>
+
+                    <tr>
+                        <th>for (exp 1; exp 2; exp 3)</th>
+                        <td>A loop which contains a variable, condition, and an expression that is executed after each loop. </td>
+                    </tr>
+
+                    <tr>
+                        <th>for (let variable of iterable)</th>
+                        <td>A loop that will run through the values of an iterable object. For example: each character of an string, or each element of an array.</td>
+                    </tr>
+
+                    <tr>
+                        <th>while (condition)</th>
+                        <td>A loop that is executed as long as the condition is true. It runs from 0 to x number of times until condition is false.</td>
+                    </tr>
+
+                    <tr>
+                        <th>do {} while(condition)</th>
+                        <td>A loop that is executed as long as the condition is true. It will run one time before checking the while condition.</td>
+                    </tr>
+
+                    <tr>
+                        <th>==, ===</th>
+                        <td>Equal to, equal value and type. Useful for declaring conditions.</td>
+                    </tr>
+
+                    <tr>
+                        <th>let text = <strong>`</strong>text<strong>`</strong></th>
+                        <td>Using `` when declaring a string can be helpful when declaring a multiline strings, or declare variables inside a string using <strong>${...}</strong></td>
+                    </tr>
+
+                    <tr>
+                        <th>.concat()</th>
+                        <td>joins two or more strings.</td>
+                    </tr>
+
+                    <tr>
+                        <th>.slice()</th>
+                        <td>Extracts a part of a string and returns the extracted part in a new string.</td>
+                    </tr>
+
+                    <tr>
+                        <th>.trim()</th>
+                        <td>Removes whitespace from both sides of a string.</td>
+                    </tr>
+
+                    <tr>
+                        <th>.replace("original text", "new text")</th>
+                        <td>Replaces a specified value with another value in a string.</td>
+                    </tr>
+
+                    <tr>
+                        <th>const arr = [1, 2, "3"]</th>
+                        <td>JavaScript can store arrays using a const variable (since the values will not change). These arrays can store multiple types of data.</td>
+                    </tr>
+
+                    <tr>
+                        <th>
+                            const obj = { <br>
+                            property1: "1", <br>
+                            property2: "2", <br>
+                            property3: "3",<br>
+                            };
+                        </th>
+                        <td>
+                            JavaScript can use objects to store data. <br>
+                            The data stored can be a property value or a function method.
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th>Object constructor</th>
+                        <td>Sometimes we need to create many objects of the same type, for that Object constructor can be used. For more information visit <a href="https://www.w3schools.com/js/js_object_constructors.asp">w3schools</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <script src="../JS/script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../CSS/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <title>CSS Cheat Sheet</title>
+    </head>
+
+    <body>
+        <div class="Bar" id="bar">
+            <a href="javascript:void(0);" class="icon" onclick="hamburgerMenu()">
+                <i class="fa fa-bars"></i>
+            </a>
+
+            <ul>
+                <li><a href="Index.html">Main Menu</a></li>
+                <li><a href="HTML_Sheet.html">HTML</a></li>
+                <li><a href="JavaScript_Sheet.html">JavaScript</a></li>
+                <li><a href="My_Hobbies.html">My Hobbies</a></li>
+            </ul>
+        </div>
+
+        <h2>CSS Cheat Sheet</h2>
+
+                <div class="Description">
+            <p>
+                CSS stands for Cascading Style Sheets, it can control multiple web pages' layouts, and it will describe how HTML elements are displayed on screen, paper, or any other media.
+            </p>
+
+            <p>CSS is among the core languages of the open web and is standardized across web browsers according to W3C specifications.</p>
+        </div>
+
+        <h2>Formatting</h2>
+
+        <div class="Table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Elements</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th>HTML Element</th>
+                        <td>HTML elements can be selected by just typing their name without brackets.</td>
+                    </tr>
+
+                    <tr>
+                        <th>#Name</th>
+                        <td>An HTML Element with an ID can be selected by using # and then its name next to it.</td>
+                    </tr>
+
+                    <tr>
+                        <th>.classname</th>
+                        <td>An HTML Element with a class name can be selected by typing a . next to its name.</td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2"> To actual write CSS code, curly brackets {} must be typed after the element name that needs to be modified.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h2>Basic Properties</h2>
+        
+        <div class="Table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Properties</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th>background-color:</th>
+                        <td>It will give a background color to the desired element. A valid color name, hex code, or RGB code can be specified.</td>
+                    </tr>
+
+                    <tr>
+                        <th>border:</th>
+                        <td>Here it can be specified the thickness of the border, the border style, and its color. Example: 5px solid red</td>
+                    </tr>
+
+                    <tr>
+                        <th>width:</th>
+                        <td>Width is the core of the box model, which is the size of where the content of an element will be allocated.</td>
+                    </tr>
+
+                    <tr>
+                        <th>padding:</th>
+                        <td>Padding is the space between the element content and the border.</td>
+                    </tr>
+
+                    <tr>
+                        <th>border:</th>
+                        <td>As its name suggest, it is the border of a HTML element.</td>
+                    </tr>
+
+                    <tr>
+                        <th>marging:</th>
+                        <td>Marging is the space between the border content and any other element around an specified box.</td>
+                    </tr>
+
+                    <tr>
+                        <th>color:</th>
+                        <td>It is the color of an element's text.</td>
+                    </tr>
+
+                    <tr>
+                        <th>text-align:</th>
+                        <td>To align text.</td>
+                    </tr>
+
+                    <tr>
+                        <th>font-family:</th>
+                        <td>To give a font to an element.</td>
+                    </tr>
+
+                    <tr>
+                        <th>border-radius:</th>
+                        <td>It gives roundness to the border.</td>
+                    </tr>
+
+                    <tr>
+                        <th>text-decoration:</th>
+                        <td>It can be used to add or remove an underline in a link element. Useful to customize link reactions when hovering for example.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h2>Flex Box</h2>
+
+        <div class="Table">
+            <table>
+                <caption>
+                    For more information about CSS, visit <a href="https://www.w3schools.com/css/default.asp">w3schools.com</a>
+                </caption>
+
+                <thead>
+                    <tr>
+                        <th>Properties</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th>display:</th>
+                        <td>Display is for controlling the layout and it will determine if an element will be black or an inline element.</td>
+                    </tr>
+
+                    <tr>
+                        <th>flex-direction:</th>
+                        <td>Sets the display-direction of flex items.</td>
+                    </tr>
+
+                    <tr>
+                        <th>flex-wrap</th>
+                        <td>Specifies whether the flex items should wrap or not. Useful for mobile views.</td>
+                    </tr>
+
+                    <tr>
+                        <th>justify-content:</th>
+                        <td>Align flex items when they do not use all the horizontal space available.</td>
+                    </tr>
+
+                    <tr>
+                        <th>align-items:</th>
+                        <td>Align flex items when they do not use all the vertical space available.</td>
+                    </tr>
+
+                    <tr>
+                        <th>align-content:</th>
+                        <td>Align flex lines when there is extra space in both vertical space and items wrap.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <script src="../JS/script.js"></script>
+    </body>
+</html>

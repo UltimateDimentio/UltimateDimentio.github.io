@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../CSS/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <title>HTML Cheat Sheet</title>
+    </head>
+
+    <body>
+        <div class="Bar" id="bar">
+            <a href="javascript:void(0);" class="icon" onclick="hamburgerMenu()">
+                <i class="fa fa-bars"></i>
+            </a>
+
+            <ul>
+                <li><a href="Index.html">Main Menu</a></li>
+                <li><a href="CSS_Sheet.html">CSS</a></li>
+                <li><a href="JavaScript_Sheet.html">JavaScript</a></li>
+                <li><a href="My_Hobbies.html">My Hobbies</a></li>
+            </ul>
+        </div>
+
+        <div class="Content">
+
+        <h2>HTML Cheat Sheet</h2>
+
+        <div class="Description">
+            <p>
+                HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content.
+            </p>
+            <br>
+            <p>
+                "Hypertext" refers to links that connect web pages to one another, either within a single website or between websites.
+                 Links are a fundamental aspect of the Web. By uploading content to the Internet and linking it to pages created by other people, you become an active participant in the World Wide Web.
+            </p>
+        </div>
+
+        <div class="Table">
+            <table>
+                <caption>
+                    For more information, visit <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements">Developer Mozilla Org</a>
+                </caption>
+                <thead>
+                    <tr>
+                        <th>Elements</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th>&lt;!doctype html&gt;</th>
+                        <td>It is a required element that prevents a browser to switch to "quirks mode" when rendering a document.</td>
+                    </tr>
+
+                    <tr>
+                        <th>&lt;head&gt;</th>
+                        <td>Contains machine-readable information, or metadata, about the document.</td>
+                    </tr>
+
+                    <tr>
+                        <th>&lt;link&gt;</th>
+                        <td>States the relationship between the website and any external resource, <br>
+                        useful to link elements to CSS like font styles.</td>
+                    </tr>
+
+                    <tr>
+                        <th>&lt;title&gt;</th>
+                        <td>Defines the website's title shown in page's tab.</td>
+                    </tr>
+
+                    <tr>
+                        <th>&lt;body&gt;</th>
+                        <td>Represent the HTML content of the document.</td>
+                    </tr>
+
+                    <tr>
+                        <th>&lt;h1&gt;,&lt;h2&gt;,&lt;h3&gt;,<br>
+                            &lt;h4&gt;,&lt;h5&gt;,&lt;h6&gt;,</th>
+                        <td>The six levels heading sections. &lt;h1&gt; is the highest, and &lt;h6&gt; the lowest.</td>
+                    </tr>
+
+                    <tr>
+                        <th>&lt;div&gt;</th>
+                        <td>The div element is useful for CSS styling and Javascript functions. It won't change the HTML content until using CSS or Javascript.</td>
+                    </tr>
+
+                    <tr>
+                        <th>&lt;ol&gt;</th>
+                        <td>Represents an ordered list. The default setting is numbered list.</td>
+                    </tr>
+
+                    <tr>
+                        <th>&lt;ul&gt;</th>
+                        <td>Represents an unordered list. The defaul setting is dot list.</td>
+                    </tr>
+
+                    <tr>
+                        <th>&lt;li&gt;</th>
+                        <td>Represents an element in a list from a &lt;ol&gt; or &lt;ul&gt; parent.</td>
+                    </tr>
+
+                    <tr>
+                        <th>&lt;a&gt;</th>
+                        <td>With href attribute, the element creates a hyperlink to web pages, files, email addresses, locations within the current page, and more.</td>
+                    </tr>
+
+                    <tr>
+                        <th>&lt;br&gt;</th>
+                        <td>Produces a line break in text.</td>
+                    </tr>
+
+                    <tr>
+                        <th>&lt;i&gt;</th>
+                        <td>To italicize text.</td>
+                    </tr>
+
+                    <tr>
+                        <th>&lt;strong&gt;</th>
+                        <td>The content have a strong importance. It is usually rendered in bold type.</td>
+                    </tr>
+
+                    <tr>
+                        <th>&lt;img&gt;</th>
+                        <td>embeds an image into the website.</td>
+                    </tr>
+
+                    <tr>
+                        <th>&lt;table&gt;</th>
+                        <td>Represents a tabular data (a two dimensional table with rows and columns).</td>
+                    </tr>
+
+                    <tr>
+                        <th>&lt;thead&gt;</th>
+                        <td>The first row of the table that represents the head of the table.</td>
+                    </tr>
+
+                    <tr>
+                        <th>&lt;tbody&gt;</th>
+                        <td>It represents the body of the table.</td>
+                    </tr>
+
+                    <tr>
+                        <th>&lt;tr&gt;</th>
+                        <td>Defines a row of cells in a table.</td>
+                    </tr>
+
+                    <tr>
+                        <th>&lt;th&gt;</th>
+                        <td>It is the header of a cells' group.</td>
+                    </tr>
+
+                    <tr>
+                        <th>&lt;td&gt;</th>
+                        <td>It defines a table's cell that contains data.</td>
+                    </tr>
+
+                    <tr>
+                        <th>&lt;fieldset&gt;</th>
+                        <td>Used to group several controls within a web form.</td>
+                    </tr>
+
+                    <tr>
+                        <th>&lt;legend&gt;</th>
+                        <td>Represents for the content of its parent &lt;fieldset&gt;</td>
+                    </tr>
+
+                    <tr>
+                        <th>&lt;label&gt;</th>
+                        <td>Represents a caption for the content of the &lt;fieldset&gt; parent</td>
+                    </tr>
+
+                    <tr>
+                        <th>&lt;input&gt;</th>
+                        <td>To input various types of data. There are a ton of types attributes like button, date, or email.</td>
+                    </tr>
+
+                    <tr>
+                        <th>&lt;select&gt;</th>
+                        <td>Represents a control that provides a menu of options.</td>
+                    </tr>
+
+                    <tr>
+                        <th>&lt;option&gt;</th>
+                        <td>To define an item in a &lt;select&gt;, &lt;optgroup&gt;, and &lt;datalist&gt; element</td>
+                    </tr>
+
+                    <tr>
+                        <th>&lt;button&gt;</th>
+                        <td>An interactive element activated by a user that once activated, it will perform an action.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        </div>
+
+        <script src="../JS/script.js"></script>
+    </body>
+</html>
